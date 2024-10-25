@@ -1,0 +1,272 @@
+@import url("https://use.typekit.net/uvc6ojw.css");
+
+body {
+    font-family: "co-headline", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header,
+footer {
+    background-color: rgb(86, 142, 86);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#main-title {
+    font-size: 48px;
+    color: white;
+    font-family: "aviano-flare", sans-serif;
+}
+
+#info-title {
+    font-size: 25px;
+    color: white;
+    font-family: "aviano-flare", sans-serif;
+    margin: 0px;
+}
+
+nav ul {
+    background-color: rgb(36, 59, 36);
+    font-size: 25px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li :hover {
+    text-decoration: underline;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+
+h2 {
+    font-size: 32px;
+    color: darkgreen;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(130, 167, 67);
+}
+
+#home {
+    display: flex;
+    justify-content: left;
+    align-items: normal;
+    flex-direction: column;
+}
+
+.présentation {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 5px inset rgb(131, 220, 131);
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+    box-shadow: 15px 15px 10px rgba(86, 142, 86, 0.65);
+}
+
+#articles {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 5px inset rgb(131, 220, 131);
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+    box-shadow: 15px 15px 10px rgba(86, 142, 86, 0.65);
+}
+
+#description {
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#informations {
+    color: white;
+    font-size: 10px;
+    padding: 0px;
+}
+
+#mail {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#mail :hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.204);
+    padding: 15px;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(176, 255, 176, 0.334);
+    border: 5px inset rgb(131, 220, 131);
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 40%;
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(86, 142, 86, 0.65);
+}
+
+label {
+    padding: 20px;
+}
+
+input[type="text"],
+[type="email"],
+textarea {
+    font-family: "co-headline", sans-serif;
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid;
+    background: none;
+    width: 90%;
+}
+
+input[type="submit"] {
+    font-family: "co-headline", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background: rgb(131, 220, 131);
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(86, 142, 86);
+}
+
+#scrollToTop {
+    color: white;
+    font-size: 25px;
+    margin: 25px auto;
+    padding: 5px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    background: rgb(131, 220, 131);
+    border: none;
+}
+
+#scrollToTop:hover {
+    background-color: rgb(86, 142, 86);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.projet1 {
+    background-color: rgb(131, 220, 131);
+    width: 450px;
+    height: 450px;
+}
+
+.projet2 {
+    background-color: rgb(6, 50, 6);
+    width: 450px;
+    height: 450px;
+}
+
+.projet3 {
+    background-color: rgb(22, 213, 22);
+    width: 450px;
+    height: 450px;
+}
+
+.caroussel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+#nextSlide {
+    color: white;
+    font-size: 25px;
+    margin: 25px auto;
+    padding: 5px;
+    border-radius: 300px;
+    background: rgb(131, 220, 131);
+    border: none;
+    float: right;
+}
+
+#prevSlide {
+    color: white;
+    font-size: 25px;
+    margin: 25px auto;
+    padding: 5px;
+    border-radius: 300px;
+    background: rgb(131, 220, 131);
+    border: none;
+    float: left;
+}
+
+#nextSlide:hover {
+    background-color: rgb(86, 142, 86);
+
+}
+
+#prevSlide:hover {
+    background-color: rgb(86, 142, 86);
+
+}
